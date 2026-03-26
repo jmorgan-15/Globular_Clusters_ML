@@ -1,5 +1,15 @@
-*.csv
-**/*.csv
-**/Plots/**
-!**/Plots/.gitignore
+Datasets/Original_Datasets/**
+Data_Wrangling/GC_distances.ipynb
+Data_Wrangling/Data_Combination.ipynb
+
+#this lets us keep the "Plots" subfolders as a structure, but not actually upload all the plots in them
+**/Plots/Basic_Properties_Distribution/Oxygen_Points/**
+**/Plots/Basic_Properties_Distribution/Sodium_Points/**
+**/Plots/Performance_Plots/Oxygen_Points/**
+**/Plots/Performance_Plots/Sodium_Points/**
+!**/Plots/Basic_Properties_Distribution/Oxygen_Points/.gitignore
+!**/Plots/Basic_Properties_Distribution/Sodium_Points/.gitignore
+!**/Plots/Performance_Plots/Oxygen_Points/.gitignore
+!**/Plots/Performance_Plots/Sodium_Points/.gitignore
+
 **/*-checkpoint.ipynb
